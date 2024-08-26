@@ -14,9 +14,10 @@ Read the terminal output before and after to see the difference
 
 ******************************************************************************/
 
+import { Result } from "postcss";
+
 export function start() {
   return true
-  // return true
 };
 
 /******************************************************************************
@@ -28,7 +29,7 @@ The function should take in a number as a parameter and return
 "Odd" if the number received is an odd number and "Even" if the number
 received is an even number.
 
-HINT: Use the modulo operator (%) Google it! 😊
+HINT: Use the modulo operator+ (%) Google it! 😊
 ******************************************************************************/
 
 export const oddOrEven = (number) => {
@@ -51,8 +52,8 @@ Example: "This is cool" should return "THIS IS COOL!"
 
 ******************************************************************************/
 
-export function makeMeLoud() {
-  //your code here
+export function makeMeLoud(loudText) {
+return loudText.toUpperCase()+"!"
 }
 
 /******************************************************************************
