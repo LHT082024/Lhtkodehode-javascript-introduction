@@ -155,8 +155,10 @@ Example3: "   hard        " should return "fun"
 
 ******************************************************************************/
 
-export const cleanAndFun = () => {
-  //your code here
+export const cleanAndFun = (propaganda) => {
+  propaganda = propaganda.trim();
+  propaganda = propaganda.replace("hard","fun");
+  return propaganda;
 };
 
 /******************************************************************************
