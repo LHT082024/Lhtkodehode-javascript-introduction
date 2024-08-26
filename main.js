@@ -16,7 +16,6 @@ Read the terminal output before and after to see the difference
 
 export function start() {
   return true
-  // return true
 };
 
 /******************************************************************************
@@ -32,7 +31,15 @@ HINT: Use the modulo operator (%) Google it! 😊
 ******************************************************************************/
 
 export const oddOrEven = () => {
+let seven = 7;
+if (seven % 2 === 0){
+return "Even"; 
+} else {
+  return "Odd";
+} 
 };
+
+oddOrEven(7);
 
 /******************************************************************************
 2.
@@ -47,7 +54,7 @@ Example: "This is cool" should return "THIS IS COOL!"
 ******************************************************************************/
 
 export function makeMeLoud() {
-  //your code here
+
 }
 
 /******************************************************************************
