@@ -181,8 +181,12 @@ Use array methods to do the following:
  Return the resulting array.
 ******************************************************************************/
 
-export function marvelEditor() {
-  //your code here
+export function marvelEditor(heros) {
+  heros.splice(0,2)
+  heros.splice(0,1, "Captain America")
+  heros.splice (1,1, "Skrull")
+  return  heros.join("💪")
+
 }
 
 /******************************************************************************
